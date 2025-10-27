@@ -2,11 +2,10 @@
 
 Una raccolta di racconti storici e riflessioni, narrati con passione e profondità.
 
-Questa repository raccoglie testi narrativi e storici in formato HTML, convertiti da documenti originali .docx.
+Questa repository raccoglie testi narrativi e storici in formato HTML, convertiti da documenti originali .docx con formattazione preservata.
 
 ## Struttura
 - `docs/`: documenti originali
-- `markdown/`: versioni convertite in Markdown
 - `html/`: versioni convertite in HTML
 - `index.html`: homepage visualizzabile via GitHub Pages
 - `style.css`: stile grafico responsive per una lettura ottimale

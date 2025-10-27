@@ -1,17 +1,21 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
     margin: 0;
     padding: 20px;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-}
-h1, h2, h3 {
+    line-height: 1.8;
+    background-color: #fdfdfd;
     color: #222;
 }
+h1, h2, h3 {
+    color: #111;
+    margin-top: 1.5em;
+}
+p {
+    margin-bottom: 1em;
+}
 a {
-    color: #0066cc;
+    color: #0077cc;
     text-decoration: none;
 }
 a:hover {
@@ -22,7 +26,7 @@ a:hover {
     margin: auto;
     padding: 20px;
     background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 @media (max-width: 600px) {
     body {
