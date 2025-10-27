@@ -2,16 +2,13 @@
 
 Una raccolta di racconti storici e riflessioni, narrati con passione e profondità.
 
-Questa repository raccoglie testi narrativi e storici in formato Markdown, convertiti da documenti originali .docx.
+Questa repository raccoglie testi narrativi e storici in formato HTML, convertiti da documenti originali .docx.
 
 ## Struttura
 - `docs/`: documenti originali
 - `markdown/`: versioni convertite in Markdown
-- `index.html`: homepage visualizzabile via HTTP server
+- `html/`: versioni convertite in HTML
+- `index.html`: homepage visualizzabile via GitHub Pages
 
-## Avvio locale
-Per avviare un server locale:
-```bash
-python3 -m http.server
-```
-Poi visita `http://localhost:8000` nel browser.
+## Pubblicazione
+Carica tutti i file su GitHub e abilita GitHub Pages dalla root del repository.
