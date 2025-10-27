@@ -9,6 +9,7 @@ Questa repository raccoglie testi narrativi e storici in formato HTML, convertit
 - `markdown/`: versioni convertite in Markdown
 - `html/`: versioni convertite in HTML
 - `index.html`: homepage visualizzabile via GitHub Pages
+- `style.css`: stile grafico responsive per una lettura ottimale
 
 ## Pubblicazione
 Carica tutti i file su GitHub e abilita GitHub Pages dalla root del repository.
