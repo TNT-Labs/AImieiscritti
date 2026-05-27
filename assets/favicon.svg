@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DailyCuriosity">
+  <rect width="64" height="64" rx="14" fill="#1C1B22"/>
+  <path d="M32 9 C 34.5 26, 38 29.5, 55 32 C 38 34.5, 34.5 38, 32 55 C 29.5 38, 26 34.5, 9 32 C 26 29.5, 29.5 26, 32 9 Z" fill="#E2553B"/>
+</svg>
