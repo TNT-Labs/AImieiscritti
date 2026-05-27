@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark" aria-hidden="true">✺</span>
+      <span class="brand-name">{{ site.title }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigazione principale">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active" aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/categorie/' | relative_url }}"{% if page.url contains 'categorie' %} class="active" aria-current="page"{% endif %}>Categorie</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url contains 'about' %} class="active" aria-current="page"{% endif %}>Chi siamo</a>
+    </nav>
+  </div>
+</header>

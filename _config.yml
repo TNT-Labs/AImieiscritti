@@ -3,13 +3,8 @@ description: >-
   Curiosità, psicologia, misteri, scienza e comportamento umano.
   Storie brevi che ti fanno dire "non lo sapevo".
 lang: it
-theme: minima
-show_excerpts: true
 
-# Voci del menu di navigazione in alto, in quest'ordine.
-header_pages:
-  - categorie.md
-  - about.md
+# Tema custom: i layout/include/CSS del repo sostituiscono completamente minima.
 
 # Non pubblicare i post con data futura: restano nascosti finché non arriva la
 # loro data e il sito viene ricostruito (vedi il cron in .github/workflows/).

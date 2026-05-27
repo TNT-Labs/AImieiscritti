@@ -1,0 +1,14 @@
+{%- assign p = include.post -%}
+{%- assign cat = p.categories[0] -%}
+<article class="card cat-{{ cat }}">
+  <a class="card-link" href="{{ p.url | relative_url }}">
+    {% if cat %}<span class="tag {{ cat }}">{{ cat }}</span>{% endif %}
+    <h2 class="card-title">{{ p.title }}</h2>
+    <p class="card-excerpt">{{ p.excerpt | strip_html | strip_newlines | truncate: 130 }}</p>
+    <div class="card-meta">
+      <time datetime="{{ p.date | date_to_xmlschema }}">{% include data.html date=p.date %}</time>
+      <span aria-hidden="true">·</span>
+      <span>{{ p.content | number_of_words | divided_by: 200 | plus: 1 }} min</span>
+    </div>
+  </a>
+</article>

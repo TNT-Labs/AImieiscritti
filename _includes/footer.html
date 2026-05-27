@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name">{{ site.title }}</span>
+      <p class="muted">{{ site.description }}</p>
+    </div>
+    <div class="footer-meta">
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      <a href="{{ '/categorie/' | relative_url }}">Categorie</a>
+      <span class="muted">© {{ site.time | date: '%Y' }} {{ site.title }}</span>
+    </div>
+  </div>
+</footer>

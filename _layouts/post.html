@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    {%- assign cat = page.categories[0] -%}
+    {% if cat %}<a class="tag {{ cat }}" href="{{ '/categorie/' | relative_url }}#{{ cat }}">{{ cat }}</a>{% endif %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{% include data.html date=page.date %}</time>
+      <span aria-hidden="true">·</span>
+      <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min di lettura</span>
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.previous or page.next %}
+  <nav class="post-nav" aria-label="Altri articoli">
+    {% if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}"><span class="post-nav-label">← Precedente</span>{{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
+    {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}"><span class="post-nav-label">Successivo →</span>{{ page.next.title }}</a>{% endif %}
+  </nav>
+  {% endif %}
+
+  <p class="back"><a href="{{ '/' | relative_url }}">← Tutti gli articoli</a></p>
+</article>
