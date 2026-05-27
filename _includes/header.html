@@ -7,6 +7,7 @@
     <nav class="site-nav" aria-label="Navigazione principale">
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active" aria-current="page"{% endif %}>Home</a>
       <a href="{{ '/categorie/' | relative_url }}"{% if page.url contains 'categorie' %} class="active" aria-current="page"{% endif %}>Categorie</a>
+      <a href="{{ '/cerca/' | relative_url }}"{% if page.url contains 'cerca' %} class="active" aria-current="page"{% endif %}>Cerca</a>
       <a href="{{ '/about/' | relative_url }}"{% if page.url contains 'about' %} class="active" aria-current="page"{% endif %}>Chi siamo</a>
     </nav>
   </div>

@@ -20,6 +20,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Immagine di anteprima per le condivisioni social (Open Graph / Twitter card).
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-image.png
+
 # Escludi i file non-blog dalla build
 exclude:
   - generate_script.py
