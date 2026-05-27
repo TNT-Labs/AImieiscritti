@@ -3,9 +3,6 @@ description: >-
   Curiosità, psicologia, misteri, scienza e comportamento umano.
   Storie brevi che ti fanno dire "non lo sapevo".
 lang: it
-#remote_theme: pages-themes/time-machine@v0.2.0
-#plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 theme: minima
 show_excerpts: true
 
