@@ -4,3 +4,10 @@ venv/
 __pycache__/
 *.pyc
 .env
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+Gemfile.lock

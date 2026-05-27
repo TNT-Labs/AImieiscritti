@@ -1,0 +1,23 @@
+title: DailyCuriosity
+description: >-
+  Curiosità, psicologia, misteri, scienza e comportamento umano.
+  Storie brevi che ti fanno dire "non lo sapevo".
+lang: it
+theme: minima
+show_excerpts: true
+
+# URL del sito. Per le project pages di GitHub l'indirizzo è
+# https://<owner>.github.io/<repo>/ , quindi owner in dominio e repo in baseurl.
+# Verifica owner/repo reali e aggiorna se necessario.
+url: "https://tnt-labs.github.io"
+baseurl: "/AImieiscritti"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Escludi i file non-blog dalla build
+exclude:
+  - generate_script.py
+  - requirements.txt
+  - README.md
