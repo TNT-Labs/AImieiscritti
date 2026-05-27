@@ -6,6 +6,15 @@ lang: it
 theme: minima
 show_excerpts: true
 
+# Voci del menu di navigazione in alto, in quest'ordine.
+header_pages:
+  - categorie.md
+  - about.md
+
+# Non pubblicare i post con data futura: restano nascosti finché non arriva la
+# loro data e il sito viene ricostruito (vedi il cron in .github/workflows/).
+future: false
+
 # URL del sito. Per le project pages di GitHub l'indirizzo è
 # https://<owner>.github.io/<repo>/ , quindi owner in dominio e repo in baseurl.
 # Verifica owner/repo reali e aggiorna se necessario.
@@ -21,3 +30,7 @@ exclude:
   - generate_script.py
   - requirements.txt
   - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
