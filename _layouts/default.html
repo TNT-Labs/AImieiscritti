@@ -10,6 +10,10 @@
   {%- feed_meta -%}
   <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {%- if page.layout == 'home' -%}
+  <meta name="build-time" content="{{ site.time | date_to_xmlschema }}" data-endpoint="{{ '/build.json' | relative_url }}">
+  <script src="{{ '/assets/js/auto-refresh.js' | relative_url }}" defer></script>
+  {%- endif -%}
 </head>
 <body>
   <a class="skip-link" href="#main">Vai al contenuto</a>
